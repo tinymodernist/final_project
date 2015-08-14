@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact | FLK Taoist Tai Chi</title>
+
+	<meta name="keywords" content="taoist tai chi, fung loy kok institute, taoism">
+	<meta name="description" content="Taoist Tai Chi Arts">
+	<meta name="author" content="Taoist Tai Chi Society">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css" class="css">	
+	<link rel="icon" type="image/png" href="images/FLKTTC.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700|IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(43.654227,-79.3974388),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+    	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>	
+</head>
+<body>
+<input type="checkbox" id="toggle" name="toggle">
+
+<!--HIDDEN NAV-->
+	<ul class="nav-hidden">
+		<li><a href="index.html">Home</a></li>
+	    <li><a href="#about">About</a></li>
+	    <li><a href="#programs">Programs</a></li>
+	    <li><a href="#classes">Classes</a></li>
+	    <li><a href="contact.html">Contact</a></li>
+	     <li><a href="http://blog.taoist.org/">Blog</a></li>
+	</ul>
+
+<!--HEADER-->
+	<div class="wrapper">
+	    <label for="toggle">☰ Menu</label>
+	    <div class="top"><a href="#">Top</a></div>
+		<div class="headerContact clearfix">
+			<div class="logo">
+				<a href="index.html"><img src="images/FLKTTC.png"></a>
+			</div>
+
+			<div class="menu">
+				<ul class="nav">
+					<li><a href="http://blog.taoist.org/">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					 <li><a href="index.html#classes">Classes</a></li>
+					<li><a href="index.html#programs">Programs</a></li>
+					<li><a href="index.html#about">About</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</div>
+<!--MAP-->		
+		    <div id="map-canvas"></div>
+<!--CONTENT-->
+			<div class="contactUs">
+				<h4>Contact Us</h4>
+				<form action="sendEmail.php" method="POST" class="contactForm" autocomplete="off" name="contactForm">
+				<label for="name">Name*</label>	
+				<input type="text" name="name" class="name" required="true">
+			    <label for="email">Email*</label>		   
+			    <input type="email" name="email" required="true">
+			    <label for="subject">Subject</label>	
+				<input type="text" name="subject" class="subject">
+				 <label for="message">Message</label>
+			    <textarea name="message" class="message"></textarea>
+			    <input type="submit" value="SEND" class="submitButton">
+				</form>
+			</div>
+<!--ASIDE-->			
+			<div class="aside">
+				<div class="blockText">
+					<h3>Get In Touch</h3>
+					<li>We love to meet people and introduce them to the Taoist Tai Chi &reg; Arts. 
+					If you would like to join a class or if you just want to find out more about who we are and what we do, please give us a call or send us an email.</li> 
+					</p>
+				</div>
+				
+				<ul>
+					<li><h4>Fung Loy Kok Institute of Taoism – Head Office</h4></li>
+					<li>134 D’Arcy Street</li>
+					<li>Toronto, Ontario M5T 1K3</li>
+					<li>Canada</li>
+					<li>Tel: +1 (416) 656-2110</li>
+					<li>Fax: +1 (416) 654-3937</li>
+				</ul>
+
+				<ul>
+					<li><h4>International Centre</h4></li>
+					<li>248305 5 Sideroad</li>
+					<li>Mono, Ontario L9W 6L2</li>
+					<li>Canada</li>
+					<li>Tel: +1 (519) 941-5981</li>
+					<li>Fax: +1 (519) 941-4542</li>
+				</ul>
+			</div>
+		</div>
+
+				    	
+<!--FOOTER-->
+	<footer>
+		<div class="socialMedia">
+			<ul>
+				<li><a href="http://facebook.com" class="fb-link">
+				<i class="fa fa-facebook-square"></i></a>
+				</li>
+				<li><a href="http://twitter.com" class="twitter-link">
+				<i class="fa fa-twitter"></i></a>
+				</li>
+				<li><a href="http://youtube.com" class="youTube-link">
+				<i class="fa fa-youtube-square"></i></a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="columns">
+			<ul class="firstColumn">
+				<li><a href="#">Frequently Asked Questions</a></li>
+				<li><a href="#">Find classes in your area</a></li>
+				<li><a href="#">International Awareness Day</a></li>
+				<li><a href="#">Programs</a></li>
+				<li><a href="#">Health Recovery Program</a></li>
+			</ul>
+
+			<ul class="secondColumn">
+				<li><a href="#">International Centre CANADA</a></li>
+				<li><a href="#">International Centre USA</a></li>
+				<li><a href="#">Online Registration form</a></li>
+				<li><a href="#">Media & Press Info</a></li>
+				<li><a href="#">Contact us</a></li>	
+			</ul>
+
+			<ul class="thirdColumn">
+				<li><a href="#">Disclaimer & legal notice</a></li>
+				<li><a href="#">Find us on Facebook</a></li>
+				<li><a href="#">YouTube: Personal stories & more</a></li>
+				<li><a href="#">Blog: From the Tiger's Mouth</a></li>
+				<li><a href="#">Follow Us on Twitter</a></li>
+			</ul>
+		</div>
+
+		<div class="footerInfo">
+			<div class="logoSmall">
+			<a href="#"><img src="images/FLKTTC.png"></a>
+			</div>
+			<p>
+			The Fung Loy Kok Institute of Taoism is a Registered Charity #11893 4371 RR0001
+			<br>
+			&reg; &trade; Trademarks of Certmark Holdings Co. Ltd., used under license
+			<br>
+			&copy; 2010-2015 Fung Loy Kok Institute of Taoism	
+			</p>
+		</div>
+	</footer>
+			    	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.smooth-scroll.js"></script>
+	<script>
+		$(function() {
+			$('.nav a').smoothScroll({
+				offset: -88, 
+				speed: 800
+			});
+		});	
+	</script>
+</body>
+</html>
