@@ -256,6 +256,16 @@ a:active {
   -webkit-transform: scale(1.1);
 }
 
+/*!
+	 * Hover.css (http://ianlunn.github.io/Hover/)
+	 * Version: 2.0.2
+	 * Author: Ian Lunn @IanLunn
+	 * Author URL: http://ianlunn.co.uk/
+	 * Github: https://github.com/IanLunn/Hover
+	 * Made available under a MIT License:
+	 * http://www.opensource.org/licenses/mit-license.php
+	 * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
+	 */
 .overlayText {
   margin: 0 auto;
   color: #FFF;
@@ -547,6 +557,10 @@ label[for="toggle"]:active {
   -webkit-flex-direction: row;
 }
 
+.mobileTitle {
+  display: none;
+}
+
 .circle {
   height: 250px;
   width: 250px;
@@ -696,7 +710,7 @@ label[for="toggle"]:active {
   position: absolute;
   bottom: 10%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translateX(-50%);
   color: #256f81;
 }
 
@@ -705,16 +719,6 @@ label[for="toggle"]:active {
   color: #FFF;
 }
 
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.0.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
- * Made available under a MIT License:
- * http://www.opensource.org/licenses/mit-license.php
- * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
- */
 .contentHalf.left {
   background-color: #256f81;
   color: #FFF;
@@ -1018,6 +1022,20 @@ footer .socialMedia a {
   }
   label[for="toggle"] {
     display: block;
+  }
+  .mobileTitle {
+    display: block;
+    text-align: center;
+  }
+  .mobileTitle a {
+    padding: 3%;
+    background: #F9423A;
+  }
+  .mobileTitle a:hover {
+    background-color: #c70e06;
+  }
+  .circle h3, .circle h4 {
+    display: none;
   }
   .findClasses .column1,
   .findClasses .column2 {
