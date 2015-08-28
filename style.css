@@ -364,11 +364,11 @@ ul.nav li a:hover {
 ul.nav-hidden {
   position: fixed;
   z-index: 1500;
-  left: -30%;
+  left: -35%;
   top: 63px;
-  width: 30%;
+  width: 35%;
   list-style-type: none;
-  padding: 0;
+  padding-left: 20px;
   margin: 0;
   transition: left 0.5s ease-in-out;
 }
@@ -1072,9 +1072,13 @@ footer .socialMedia a {
   .titleFeatured h2 {
     margin: 5%;
   }
-  .polaroid2 {
-    top: 36%;
-    left: 25%;
+  .contentHalfAbout.right {
+    display: none;
+  }
+  .titleClasses ::before,
+  .titlePrograms ::before,
+  .titleAbout ::before {
+    display: none;
   }
   /*Classes Page*/
   .asideClasses {
